@@ -6,29 +6,40 @@ export const CONTACT = {
 };
 
 export const IMG = {
-  cover: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=2000&q=80',
-  food: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=1600&q=80',
-  quarry: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80',
-  crane: 'https://loremflickr.com/1600/1000/construction,crane,site?lock=11',
-  kitchen: 'https://loremflickr.com/1200/1400/kitchen,chef,restaurant?lock=21',
-  meat: 'https://loremflickr.com/1600/1100/butcher,meat?lock=7',
-  produce: 'https://loremflickr.com/1400/1000/vegetables,market,produce?lock=13',
-  cold: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1600&q=80',
-  cement: 'https://loremflickr.com/1600/1100/cement,construction,steel?lock=17',
-  granite: 'https://loremflickr.com/1600/1100/granite,marble,stone?lock=4',
-  office: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80',
-  textile: 'https://loremflickr.com/1400/1600/uniform,workwear,textile?lock=23',
-  event: 'https://loremflickr.com/1400/1600/banner,event,stage?lock=29',
-  interior: 'https://loremflickr.com/1600/1100/hotel,lobby,interior?lock=31',
-  farm: 'https://loremflickr.com/1600/1100/farm,field,agriculture?lock=37',
-  retail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600&q=80',
-  team: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80',
-  farmer: 'https://loremflickr.com/1600/1100/farmer,harvest,field?lock=41',
-  city: 'https://loremflickr.com/1800/1100/city,skyline,architecture?lock=43',
-  truck: 'https://loremflickr.com/1600/1000/truck,logistics,delivery?lock=47',
-  warehouse: 'https://loremflickr.com/1600/1000/warehouse,storage,pallets?lock=53',
-  poultry: 'https://loremflickr.com/1600/1000/poultry,farm,chicken?lock=59',
-  meeting: 'https://loremflickr.com/1600/1000/business,meeting,office?lock=61',
+  cover: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1800&q=80',
+  food: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=1800&q=80',
+  quarry: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1800&q=80',
+  crane: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1800&q=80',
+  kitchen: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1800&q=80',
+  meat: 'https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1800&q=80',
+  produce: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1800&q=80',
+  cold: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=1800&q=80',
+  cement: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1800&q=80',
+  granite: 'https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?w=1800&q=80',
+  office: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1800&q=80',
+  textile: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=1800&q=80',
+  event: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1800&q=80',
+  stage: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1800&q=80',
+  interior: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1800&q=80',
+  hotel: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1800&q=80',
+  farm: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1800&q=80',
+  retail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1800&q=80',
+  team: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1800&q=80',
+  farmer: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1800&q=80',
+  city: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1800&q=80',
+  truck: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=1800&q=80',
+  warehouse: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=1800&q=80',
+  logistics: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1800&q=80',
+  poultry: 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1800&q=80',
+  meeting: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1800&q=80',
+  collab: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1800&q=80',
+  restaurant: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800&q=80',
+  market: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1800&q=80',
+  spread: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1800&q=80',
+  plant: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1800&q=80',
+  steak: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1800&q=80',
+  plans: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1800&q=80',
+  dining: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1800&q=80',
 };
 
 export const NAV = [
@@ -71,7 +82,7 @@ export const services: Service[] = [
       'Today we supply fresh, frozen, dried and processed food to mega projects, embassies, international hotels, high-end restaurants and multinational canteens — with ready-cut, portioned and ready-to-cook options that reduce waste, improve hygiene and simplify kitchen operations.',
     ],
     image: IMG.meat,
-    image2: IMG.produce,
+    image2: IMG.market,
     offerings: [
       { title: 'Dry Food Items', text: 'Staples supplied in reliable volume, with consistent grading across every delivery.', items: ['Pasta and macaroni', 'Grains and pulses', 'Flour and cereals', 'Spices and seasonings'] },
       { title: 'Fruits & Vegetables', text: 'Fresh, frozen and processed produce, prepared to the client’s kitchen specification.', items: ['Fresh seasonal produce', 'Peeled, cut and portioned lines', 'Frozen vegetables', 'Juice-grade fruit for producers'] },
@@ -98,7 +109,7 @@ export const services: Service[] = [
       'FORTE installs cold rooms for projects, hotels and processors, leases and manages cold storage, and provides cold-chain logistics so that temperature-sensitive goods arrive exactly as they left.',
     ],
     image: IMG.cold,
-    image2: IMG.warehouse,
+    image2: IMG.logistics,
     offerings: [
       { title: 'Cold Room Installation', text: 'Turnkey cold rooms sized to the client’s throughput, from site assessment to commissioning.', items: ['Site assessment and sizing', 'Chiller and freezer rooms', 'Remote-site installations', 'Commissioning and handover'] },
       { title: 'Storage Leasing', text: 'Cold storage capacity for clients who need space without the capital outlay.', items: ['Chilled and frozen capacity', 'Short and long-term terms', 'Managed inventory', 'Scalable allocation'] },
@@ -146,7 +157,7 @@ export const services: Service[] = [
       'Rock Age is developing a granite processing plant representing an ETB 300 million investment, with coal and limestone production planned as future lines.',
     ],
     image: IMG.granite,
-    image2: IMG.quarry,
+    image2: IMG.plant,
     offerings: [
       { title: 'Granite & Marble Quarrying', text: 'Natural stone extracted from Rock Age quarry operations.', items: ['Babile pink granite', 'Babile black granite', 'Marble'] },
       { title: 'Processing & Future Lines', text: 'Investment in value-adding processing and diversified extraction.', items: ['Granite processing plant (ETB 300M)', 'Future coal production', 'Future limestone production'] },
@@ -169,7 +180,7 @@ export const services: Service[] = [
       'Our range covers corporate offices, institutions and remote project camps, with custom fabrication when standard pieces don’t fit the brief.',
     ],
     image: IMG.office,
-    image2: IMG.meeting,
+    image2: IMG.collab,
     offerings: [
       { title: 'Office Furniture', text: 'Complete workplace fit-out for corporate and institutional clients.', items: ['Desks and workstations', 'Ergonomic seating', 'Filing and storage', 'Meeting and reception'] },
       { title: 'Camp Furniture', text: 'Durable furnishing for remote accommodation and workforce camps.', items: ['Dormitory beds', 'Lockers', 'Dining furniture', 'Lounge furniture'] },
@@ -193,7 +204,7 @@ export const services: Service[] = [
       'We handle bulk procurement end to end, so programme managers deal with one accountable partner instead of many suppliers.',
     ],
     image: IMG.textile,
-    image2: IMG.warehouse,
+    image2: IMG.logistics,
     offerings: [
       { title: 'Workwear & PPE', text: 'Clothing for workforces in demanding environments.', items: ['Uniforms', 'Coveralls', 'PPE clothing'] },
       { title: 'Camp Textiles', text: 'Everything needed to equip remote accommodation.', items: ['Bedding and linens', 'Blankets', 'Tent fabrics'] },
@@ -217,7 +228,7 @@ export const services: Service[] = [
       'From corporate giveaways to complete event staging, we coordinate production and delivery so campaigns and events land on time and on brand.',
     ],
     image: IMG.event,
-    image2: IMG.city,
+    image2: IMG.stage,
     offerings: [
       { title: 'Branded Items', text: 'Merchandise and apparel carrying the client’s identity.', items: ['Corporate giveaways', 'Branded apparel', 'Print collateral'] },
       { title: 'Event Materials', text: 'Physical infrastructure for launches, conferences and activations.', items: ['Banners and backdrops', 'Tents', 'Staging accessories'] },
@@ -241,7 +252,7 @@ export const services: Service[] = [
       'We take projects from space planning and design consultancy through to finishing execution, coordinating materials — including natural stone from our own lineage — under one contract.',
     ],
     image: IMG.interior,
-    image2: IMG.office,
+    image2: IMG.hotel,
     offerings: [
       { title: 'Finishing Works', text: 'Interior execution to specification and schedule.', items: ['Flooring', 'Ceilings', 'Partitioning', 'Painting and fixtures'] },
       { title: 'Design & Planning', text: 'Consultancy that turns a brief into a buildable plan.', items: ['Space planning', 'Design consultancy', 'Material selection'] },
@@ -293,7 +304,7 @@ export const timeline = [
 ];
 
 export const chain = [
-  { title: 'Farms', text: 'Long-term partnerships with local producers, and investment in FORTE’s own farms and poultry units to secure supply continuity at source.', image: IMG.farm },
+  { title: 'Farms', text: 'Long-term partnerships with local producers, and investment in FORTE’s own farms and poultry units to secure supply continuity at source.', image: IMG.poultry },
   { title: 'Processing', text: 'Hygienic slaughtering, blood drainage, cutting and portioning to client specification, followed by controlled chilling and freezing.', image: IMG.meat },
   { title: 'Cold Chain', text: 'Owned and managed cold rooms preserve product integrity, with temperature-held transport bridging storage and site.', image: IMG.cold },
   { title: 'Delivery', text: 'Scheduled, tailored fulfilment to each client’s operation — from city restaurants to remote mega-project camps.', image: IMG.truck },
@@ -331,7 +342,7 @@ export const painPoints = [
 
 export const impact = [
   { title: 'Employment', text: 'Labour-intensive farms and processing units established specifically to create youth employment.', image: IMG.farmer },
-  { title: 'School Feeding', text: 'Partnerships with the Addis Ababa City Administration supporting school feeding programmes.', image: IMG.food },
+  { title: 'School Feeding', text: 'Partnerships with the Addis Ababa City Administration supporting school feeding programmes.', image: IMG.dining },
   { title: 'Import Substitution', text: 'Proving that local producers can meet international standards reduces import dependency and foreign currency outflow.', image: IMG.produce },
   { title: 'Local Producers', text: 'Structured, predictable sourcing gives farmers and producers the confidence to invest and grow.', image: IMG.farm },
 ];

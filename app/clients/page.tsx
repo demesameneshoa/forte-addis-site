@@ -5,6 +5,7 @@ import Reveal from '@/components/Reveal';
 import Duotone from '@/components/Duotone';
 import Marquee from '@/components/Marquee';
 import CTA from '@/components/CTA';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, clientSegments, painPoints, whyStay } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'Clients', description: 'The diplomatic, industrial and hospitality clients FORTE serves.' };
@@ -37,6 +38,8 @@ export default function Clients() {
           </div>
         </div>
       </section>
+
+      <ScrollMarquee text="Diplomatic · Industrial · Hospitality" />
 
       <Marquee dark items={whyStay} />
 

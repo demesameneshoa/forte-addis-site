@@ -4,7 +4,8 @@ import { notFound } from 'next/navigation';
 import PageHero from '@/components/PageHero';
 import SectionHead from '@/components/SectionHead';
 import Reveal, { RuleReveal } from '@/components/Reveal';
-import Duotone from '@/components/Duotone';
+import ZoomPin from '@/components/ZoomPin';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import CTA from '@/components/CTA';
 import { services } from '@/lib/content';
 
@@ -69,14 +70,16 @@ export default function ServicePage({ params }: Params) {
         </div>
       </section>
 
-      <Duotone src={s.image2} className="h-[70vh] w-full" reveal={false} />
+      <ZoomPin src={s.image2} eyebrow={`${s.tag} — Why it matters`} title={s.highlights[0].title} text={s.highlights[0].text} />
+
+      <ScrollMarquee text={s.title} />
 
       <section className="bg-paper py-28 md:py-40">
         <div className="container-x grid gap-20 lg:grid-cols-[1.4fr_1fr] lg:gap-24">
           <div>
-            <SectionHead eyebrow="Why FORTE" title="What sets this pillar apart" />
+            <SectionHead eyebrow="Why FORTE" title="What sets this pillar apart" intro={s.body[1]} />
             <div className="mt-14 grid gap-12 sm:grid-cols-2">
-              {s.highlights.map((h, k) => (
+              {s.highlights.slice(1).map((h, k) => (
                 <Reveal key={h.title} delay={k * 0.08}>
                   <div className="border-t border-gold pt-6">
                     <h3 className="font-serif text-2xl text-ink">{h.title}</h3>

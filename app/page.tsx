@@ -8,6 +8,8 @@ import Reveal, { RuleReveal } from '@/components/Reveal';
 import Marquee from '@/components/Marquee';
 import SectionHead from '@/components/SectionHead';
 import CTA from '@/components/CTA';
+import ZoomPin from '@/components/ZoomPin';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, chain, clientSegments, services, whyStay } from '@/lib/content';
 
 const stats = [
@@ -47,6 +49,13 @@ export default function Home() {
         </div>
       </section>
 
+      <ZoomPin
+        src={IMG.spread}
+        eyebrow="At national scale"
+        title="Five thousand meals, one standard."
+        text="When a national mega project outgrew its caterers, FORTE organized local producers and delivered — proving the capacity was always here."
+      />
+
       <section className="bg-deep py-24 text-paper md:py-32">
         <div className="container-x grid gap-14 sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
           {stats.map((s, i) => (
@@ -64,7 +73,9 @@ export default function Home() {
 
       <HorizontalPillars items={services} />
 
-      <section className="bg-paper py-28 md:py-40">
+      <ScrollMarquee text="Organized · Reliable · At Scale" />
+
+      <section className="bg-paper pb-28 pt-12 md:pb-40">
         <div className="container-x grid items-center gap-16 lg:grid-cols-[1fr_1.05fr] lg:gap-24">
           <Duotone src={IMG.crane} className="aspect-[4/5] w-full" />
           <div>
@@ -113,6 +124,8 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      <ScrollMarquee dark reverse text="Farm · Processing · Cold Chain · Delivery" />
 
       <section className="bg-paper pt-28 md:pt-40">
         <div className="container-x">

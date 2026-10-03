@@ -6,6 +6,8 @@ import Duotone from '@/components/Duotone';
 import Counter from '@/components/Counter';
 import ScrollText from '@/components/ScrollText';
 import CTA from '@/components/CTA';
+import ZoomPin from '@/components/ZoomPin';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, functions, painPoints, timeline, values } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'About — Our Story', description: 'How FORTE grew from Rock Age Trading Industries into Ethiopia’s organized supply partner.' };
@@ -112,15 +114,12 @@ export default function About() {
         </div>
       </section>
 
-      <section className="bg-deep py-32 text-paper md:py-48">
-        <div className="container-x">
-          <Reveal><p className="eyebrow text-gold-mid">The insight</p></Reveal>
-          <ScrollText
-            text="Ethiopia already possessed the capacity to meet global food quality and volume standards. The missing link was organization."
-            className="mt-10 max-w-6xl font-serif text-4xl italic leading-[1.25] md:text-6xl"
-          />
-        </div>
-      </section>
+      <ZoomPin
+        src={IMG.market}
+        eyebrow="The insight"
+        title="The missing link was organization."
+        text="Ethiopia already possessed the capacity to meet global food quality and volume standards."
+      />
 
       <section className="bg-paper py-28 md:py-40">
         <div className="container-x">
@@ -144,7 +143,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className="bg-forest py-28 text-paper md:py-40">
+      <ScrollMarquee dark text="From Quarry to Export Markets" />
+
+      <section className="bg-forest pb-28 pt-12 text-paper md:pb-40">
         <div className="container-x">
           <SectionHead dark eyebrow="Our journey" title="From Quarry to Export Markets" />
           <div className="relative mt-20">

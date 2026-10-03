@@ -6,6 +6,7 @@ import Reveal from '@/components/Reveal';
 import Duotone from '@/components/Duotone';
 import ScrollText from '@/components/ScrollText';
 import CTA from '@/components/CTA';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, functions, team } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'Team', description: 'The people behind the FORTE standard.' };
@@ -55,6 +56,8 @@ export default function Team() {
           </div>
         </div>
       </section>
+
+      <ScrollMarquee dark text="Ownership · Collaboration · Improvement" />
 
       <section className="bg-paper py-28 md:py-40">
         <div className="container-x grid gap-16 lg:grid-cols-[1fr_1fr] lg:gap-24">

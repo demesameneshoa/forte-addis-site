@@ -5,6 +5,7 @@ import SectionHead from '@/components/SectionHead';
 import Reveal from '@/components/Reveal';
 import Duotone from '@/components/Duotone';
 import CTA from '@/components/CTA';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, services } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'Services', description: 'Eight business pillars, one standard — from food items supply to interior finishing.' };
@@ -30,7 +31,9 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="bg-paper pb-28 md:pb-40">
+      <ScrollMarquee text="Food · Cold Chain · Construction · Mining · Furniture · Textiles · Events · Interiors" />
+
+      <section className="bg-paper pb-28 pt-16 md:pb-40">
         <div className="container-x flex flex-col gap-28 md:gap-40">
           {services.map((s, i) => (
             <div key={s.slug} className={`grid items-center gap-12 lg:grid-cols-2 lg:gap-24 ${i % 2 ? 'lg:[&>*:first-child]:order-2' : ''}`}>

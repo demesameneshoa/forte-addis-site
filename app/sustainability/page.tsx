@@ -5,6 +5,7 @@ import Reveal from '@/components/Reveal';
 import Duotone from '@/components/Duotone';
 import ScrollText from '@/components/ScrollText';
 import CTA from '@/components/CTA';
+import ZoomPin from '@/components/ZoomPin';
 import { IMG, impact } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'Sustainability & Impact', description: 'Growth tied to national purpose: employment, school feeding, import substitution and local producers.' };
@@ -46,6 +47,8 @@ export default function Sustainability() {
           ))}
         </div>
       </section>
+
+      <ZoomPin src={IMG.market} eyebrow="The bigger picture" title="Local capacity, proven at scale." />
 
       <section className="bg-forest py-28 text-paper md:py-40">
         <div className="container-x grid gap-16 lg:grid-cols-2 lg:gap-24">

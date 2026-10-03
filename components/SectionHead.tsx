@@ -1,4 +1,5 @@
 import Reveal, { RuleReveal } from './Reveal';
+import InViewWords from './InViewWords';
 
 type Props = { eyebrow: string; title: string; intro?: string; dark?: boolean; align?: 'left' | 'split' };
 
@@ -11,12 +12,14 @@ export default function SectionHead({ eyebrow, title, intro, dark = false, align
     return (
       <div>
         <div className="grid items-end gap-10 md:grid-cols-[1.3fr_1fr]">
-          <Reveal>
-            <p className={`eyebrow ${eb}`}>{eyebrow}</p>
-            <h2 className={`mt-6 font-serif text-4xl leading-[1.05] tracking-[-0.015em] md:text-6xl ${tt}`}>{title}</h2>
-          </Reveal>
+          <div>
+            <Reveal y={16}><p className={`eyebrow ${eb}`}>{eyebrow}</p></Reveal>
+            <h2 className={`mt-6 font-serif text-4xl leading-[1.05] tracking-[-0.015em] md:text-6xl ${tt}`}>
+              <InViewWords text={title} />
+            </h2>
+          </div>
           {intro && (
-            <Reveal delay={0.15}>
+            <Reveal delay={0.2}>
               <p className={`text-lg font-light leading-relaxed md:text-right ${it}`}>{intro}</p>
             </Reveal>
           )}
@@ -28,13 +31,13 @@ export default function SectionHead({ eyebrow, title, intro, dark = false, align
 
   return (
     <div>
-      <Reveal>
-        <p className={`eyebrow ${eb}`}>{eyebrow}</p>
-        <h2 className={`mt-6 max-w-4xl font-serif text-4xl leading-[1.05] tracking-[-0.015em] md:text-6xl ${tt}`}>{title}</h2>
-      </Reveal>
+      <Reveal y={16}><p className={`eyebrow ${eb}`}>{eyebrow}</p></Reveal>
+      <h2 className={`mt-6 max-w-4xl font-serif text-4xl leading-[1.05] tracking-[-0.015em] md:text-6xl ${tt}`}>
+        <InViewWords text={title} />
+      </h2>
       <RuleReveal dark={dark} className="mt-9 max-w-xs" />
       {intro && (
-        <Reveal delay={0.1}>
+        <Reveal delay={0.15}>
           <p className={`mt-9 max-w-3xl text-lg font-light leading-relaxed ${it}`}>{intro}</p>
         </Reveal>
       )}

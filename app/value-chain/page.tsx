@@ -6,6 +6,8 @@ import Reveal from '@/components/Reveal';
 import Duotone from '@/components/Duotone';
 import ScrollText from '@/components/ScrollText';
 import CTA from '@/components/CTA';
+import StackCards from '@/components/StackCards';
+import ScrollMarquee from '@/components/ScrollMarquee';
 import { IMG, chain, qa } from '@/lib/content';
 
 export const metadata: Metadata = { title: 'Value Chain & Quality', description: 'How FORTE controls quality from farm to table.' };
@@ -36,23 +38,11 @@ export default function ValueChain() {
         </div>
       </section>
 
-      <section className="bg-paper pb-28 md:pb-40">
-        <div className="container-x flex flex-col gap-24 md:gap-32">
-          {chain.map((c, i) => (
-            <div key={c.title} className="grid items-center gap-12 md:grid-cols-[1fr_1fr] md:gap-20">
-              <div className={i % 2 ? 'md:order-2' : ''}>
-                <Duotone src={c.image} className="aspect-[4/3] w-full" />
-              </div>
-              <Reveal>
-                <div className="font-serif text-[120px] leading-none text-gold/25 md:text-[160px]">0{i + 1}</div>
-                <h2 className="-mt-6 font-serif text-5xl text-ink md:-mt-10 md:text-6xl">{c.title}</h2>
-                <div className="gold-rule mt-8 h-px w-40" />
-                <p className="mt-8 max-w-lg text-lg font-light leading-[1.85] text-body">{c.text}</p>
-              </Reveal>
-            </div>
-          ))}
-        </div>
+      <section className="bg-paper pb-[20vh]">
+        <StackCards items={chain} />
       </section>
+
+      <ScrollMarquee text="Frozen is the New Fresh" />
 
       <section className="relative overflow-hidden bg-night text-paper">
         <Duotone src={IMG.meat} className="absolute inset-0" shade="side" reveal={false} />

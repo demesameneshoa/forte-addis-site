@@ -29,7 +29,7 @@ npm run build && npm start
 
 All copy, team members, services and image URLs live in `lib/content.ts`.
 
-- **Images**: The image URLs in `IMG` are temporary photos pulled from Unsplash and LoremFlickr. Replace them with your own photography (put files in `public/images/` and use `/images/name.jpg`).
+- **Images**: The image URLs in `IMG` are temporary Unsplash photos. Replace them with your own photography (put files in `public/images/` and use `/images/name.jpg`). If a photo fails to load, `Duotone` automatically falls back to the cover image.
 - **Phone**: `CONTACT.phone` is still a placeholder.
 - **Team**: the team cards show monograms. Add a `photo` field to each person when you have headshots.
 
@@ -40,6 +40,10 @@ All copy, team members, services and image URLs live in `lib/content.ts`.
 - `components/Duotone.tsx` — forest duotone images with parallax + clip-path reveal
 - `components/HorizontalPillars.tsx` — pinned section that scrolls horizontally
 - `components/ScrollText.tsx` — words light up as you scroll
+- `components/ZoomPin.tsx` — pinned image expands from a framed window to full-bleed with rising text
+- `components/StackCards.tsx` — value-chain steps pin and stack, receding as the next arrives
+- `components/ScrollMarquee.tsx` — oversized outlined headlines that slide sideways with scroll
+- `components/InViewWords.tsx` — every section title rises word-by-word from a mask
 - `components/Counter.tsx` — count-up numbers on view
 
 ## Deploy
